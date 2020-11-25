@@ -13,7 +13,7 @@ cgitb.enable()
 # Production Path
 python_path = "/afs/bii.a-star.edu.sg/dept/mendel/METHODS/corona/local/anaconda3/envs/primer/bin/python3.7"
 temp_folder = "/afs/bii.a-star.edu.sg/dept/mendel/METHODS/corona/current/tmp/"
-phylo_gen_path = "/afs/bii.a-star.edu.sg/dept/mendel/METHODS/corona/gamma/phyloTreeMaker/cgi-bin/phylo_updated.py"
+phylo_gen_path = "/afs/bii.a-star.edu.sg/dept/mendel/METHODS/corona/current/cgi-bin/phyloTree/phylo_updated.py"
 
 # Temp Path
 # python_path = (
