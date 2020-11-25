@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/gamma/phyloMaker/build/static/css/main.55d43d20.chunk.css",
-    "main.js": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/gamma/phyloMaker/build/static/js/main.eccbc32e.chunk.js",
-    "main.js.map": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/gamma/phyloMaker/build/static/js/main.eccbc32e.chunk.js.map",
-    "runtime-main.js": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/gamma/phyloMaker/build/static/js/runtime-main.d51f9c5f.js",
-    "runtime-main.js.map": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/gamma/phyloMaker/build/static/js/runtime-main.d51f9c5f.js.map",
-    "static/css/2.1a02f21c.chunk.css": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/gamma/phyloMaker/build/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.ff414463.chunk.js": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/gamma/phyloMaker/build/static/js/2.ff414463.chunk.js",
-    "static/js/2.ff414463.chunk.js.map": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/gamma/phyloMaker/build/static/js/2.ff414463.chunk.js.map",
-    "static/js/3.37e580ea.chunk.js": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/gamma/phyloMaker/build/static/js/3.37e580ea.chunk.js",
-    "static/js/3.37e580ea.chunk.js.map": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/gamma/phyloMaker/build/static/js/3.37e580ea.chunk.js.map",
-    "index.html": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/gamma/phyloMaker/build/index.html",
-    "static/css/2.1a02f21c.chunk.css.map": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/gamma/phyloMaker/build/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.55d43d20.chunk.css.map": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/gamma/phyloMaker/build/static/css/main.55d43d20.chunk.css.map",
-    "static/js/2.ff414463.chunk.js.LICENSE.txt": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/gamma/phyloMaker/build/static/js/2.ff414463.chunk.js.LICENSE.txt"
+    "main.css": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/css/main.55d43d20.chunk.css",
+    "main.js": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/js/main.00175afb.chunk.js",
+    "main.js.map": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/js/main.00175afb.chunk.js.map",
+    "runtime-main.js": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/js/runtime-main.404ace0e.js",
+    "runtime-main.js.map": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/js/runtime-main.404ace0e.js.map",
+    "static/css/2.1a02f21c.chunk.css": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.ff414463.chunk.js": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/js/2.ff414463.chunk.js",
+    "static/js/2.ff414463.chunk.js.map": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/js/2.ff414463.chunk.js.map",
+    "static/js/3.37e580ea.chunk.js": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/js/3.37e580ea.chunk.js",
+    "static/js/3.37e580ea.chunk.js.map": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/js/3.37e580ea.chunk.js.map",
+    "index.html": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.55d43d20.chunk.css.map": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/css/main.55d43d20.chunk.css.map",
+    "static/js/2.ff414463.chunk.js.LICENSE.txt": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/js/2.ff414463.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d51f9c5f.js",
+    "static/js/runtime-main.404ace0e.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.ff414463.chunk.js",
     "static/css/main.55d43d20.chunk.css",
-    "static/js/main.eccbc32e.chunk.js"
+    "static/js/main.00175afb.chunk.js"
   ]
 }

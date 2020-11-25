@@ -9,7 +9,7 @@ import LoadingPage from "./pages/loadingPage/loadingPage";
 function App() {
   const [results, setResults] = React.useState("");
   return (
-    <Router basename="/METHODS/corona/gamma/phyloMaker/build">
+    <Router basename="/METHODS/corona/current/phyloTreeMaker/build">
       <Link to="/" style={{ textDecoration: "none" }}>
         <h1 className={AppStyles.title}>Phylo Tree Maker</h1>
       </Link>

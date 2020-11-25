@@ -1,6 +1,6 @@
 import axios from "axios";
 const production =
-  "https://mendel3.bii.a-star.edu.sg/METHODS/corona/gamma/cgi-bin/cgi_tree.py";
+  "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/cgi-bin/phyloTree/cgi_tree.py";
 
 // const test = "http://localhost:8000/cgi-bin/cgi_tree.py";
 

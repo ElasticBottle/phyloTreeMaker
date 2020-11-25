@@ -1,6 +1,6 @@
 {
   "name": "phylo_tree_viewer",
-  "PUBLIC_URL": "http://localhost:3000/METHODS/corona/gamma/phyloMaker/build",
+  "PUBLIC_URL": "http://localhost:3000/METHODS/corona/current/phyloTreeMaker/build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
