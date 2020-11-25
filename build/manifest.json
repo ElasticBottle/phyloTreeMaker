@@ -1,0 +1,25 @@
+{
+  "short_name": "Phylo Tree Maker",
+  "name": "Phylogenetic tree maker",
+  "icons": [
+    {
+      "src": "tree.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "tree192.png",
+      "type": "image/png",
+      "sizes": "200x200"
+    },
+    {
+      "src": "tree512.png",
+      "type": "image/png",
+      "sizes": "500x500"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
