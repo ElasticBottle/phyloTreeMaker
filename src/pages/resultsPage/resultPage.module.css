@@ -1,0 +1,31 @@
+.overlay{
+    position: fixed;
+    left: 2%;
+    top:5%;
+    margin:0;
+    background-color: rgba(56, 56, 56, 0.75);
+    z-index: 2;
+}
+
+.text{
+    color:White;
+    margin: 5px 5%;
+    font-weight: 300;
+}
+
+.textContainer:first-child{
+    margin-top: 20px;
+}
+
+.errorContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.errorText:nth-last-child(2) {
+    font-weight: 700;
+}
+.errorText{
+    display: block;
+    margin: 5px 0 0 10% ;
+}

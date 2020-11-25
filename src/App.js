@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
+import AppStyles from "./App.module.css";
+import UploadPage from "./pages/uploadPage/uploadPage";
+import ResultsPage from "./pages/resultsPage/resultsPage";
+import LoadingPage from "./pages/loadingPage/loadingPage";
 
 function App() {
+  const [results, setResults] = React.useState("");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router basename="/METHODS/corona/gamma/phyloMaker/build">
+      <Link to="/" style={{ textDecoration: "none" }}>
+        <h1 className={AppStyles.title}>Phylo Tree Maker</h1>
+      </Link>
+      <Switch>
+        <Route exact={true} path="/">
+          <UploadPage setResults={setResults} />
+        </Route>
+        <Route exact={true} path="/results">
+          <ResultsPage results={results} />
+        </Route>
+        <Route exact={true} path="/loading">
+          <LoadingPage />
+        </Route>
+        <Route path="*">
+          <div>404 Page not Found.</div>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

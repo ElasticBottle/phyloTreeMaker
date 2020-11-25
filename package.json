@@ -1,15 +1,27 @@
 {
   "name": "phylo_tree_viewer",
+  "PUBLIC_URL": "http://localhost:3000/METHODS/corona/gamma/phyloMaker/build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.1",
     "@testing-library/user-event": "^12.2.0",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "formik": "^2.2.4",
+    "loader": "^2.1.1",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-color": "^2.19.3",
     "react-dom": "^17.0.1",
+    "react-html-parser": "^2.0.2",
+    "react-icons": "^3.11.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "workerize": "^0.1.8",
+    "yup": "^0.29.3"
   },
   "scripts": {
     "start": "react-scripts start",
