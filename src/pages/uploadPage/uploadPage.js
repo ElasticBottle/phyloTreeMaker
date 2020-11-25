@@ -94,17 +94,17 @@ function UploadPage({ setResults }) {
     0: {
       clade: "G_",
       color: "#fdb3b3",
-      minDensity: 0.2,
+      minDensity: 0.1,
       maxDensity: 1,
-      minCoverage: 0.4,
+      minCoverage: 0.6,
       maxCoverage: 1,
     },
     1: {
       clade: "GH_",
       color: "#feab8d",
-      minDensity: 0.2,
+      minDensity: 0.1,
       maxDensity: 1,
-      minCoverage: 0.2,
+      minCoverage: 0.6,
       maxCoverage: 1,
     },
     2: {
@@ -303,10 +303,10 @@ function UploadPage({ setResults }) {
                     Max Density
                   </Form.Label>
                   <Form.Label as={Col} xs={12} md={2}>
-                    Min Covergae
+                    Min Coverage
                   </Form.Label>
                   <Form.Label as={Col} xs={12} md={2}>
-                    Max Covergae
+                    Max Coverage
                   </Form.Label>
                 </Form.Row>
                 {Object.keys(cladeProperties).map((index) => {
