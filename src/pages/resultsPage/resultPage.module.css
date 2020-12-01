@@ -22,7 +22,8 @@
     flex-direction: column;
     align-items: flex-start;
 }
-.errorText:nth-last-child(2) {
+.errorText
+:nth-last-child(2) {
     font-weight: 700;
 }
 .errorText{
