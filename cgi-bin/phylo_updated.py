@@ -183,7 +183,7 @@ def main():
 
     color_taxons(tree, args.color_marker, args.offset)
     clade_counts = get_clade_count(tree, clades=clades, alternate_names=alt_names)
-    if not args.rootOn:
+    if not args.root_on:
         raise Exception(
             f"{args.root_on} clade does not exist. Did you specify a clade to root on?"
         )
