@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/css/main.78a0c480.chunk.css",
-    "main.js": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/js/main.ff314863.chunk.js",
-    "main.js.map": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/js/main.ff314863.chunk.js.map",
+    "main.js": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/js/main.f8c88d04.chunk.js",
+    "main.js.map": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/js/main.f8c88d04.chunk.js.map",
     "runtime-main.js": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/js/runtime-main.35a44a33.js",
     "runtime-main.js.map": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/js/runtime-main.35a44a33.js.map",
     "static/css/2.1a02f21c.chunk.css": "https://mendel3.bii.a-star.edu.sg/METHODS/corona/current/phyloTreeMaker/build/static/css/2.1a02f21c.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.f5a1d142.chunk.js",
     "static/css/main.78a0c480.chunk.css",
-    "static/js/main.ff314863.chunk.js"
+    "static/js/main.f8c88d04.chunk.js"
   ]
 }
