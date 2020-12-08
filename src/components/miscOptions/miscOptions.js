@@ -1,6 +1,7 @@
 import React from "react";
 import Form from "react-bootstrap/Form";
 import Col from "react-bootstrap/Col";
+import MiscOptionsStyle from "./miscOptions.module.css";
 
 const MiscOptions = ({
   colorDelineator,
@@ -32,7 +33,9 @@ const MiscOptions = ({
   };
   return (
     <Form.Group as={Col} xs={12} md={6}>
-      <Form.Label>Color Delineator</Form.Label>
+      <Form.Label className={MiscOptionsStyle.header}>
+        Color Delineator
+      </Form.Label>
       <Form.Control
         aria-describedby="colorDelineator"
         type="text"
@@ -55,7 +58,7 @@ const MiscOptions = ({
         {errors[colorDelineatorValue]}
       </Form.Control.Feedback>
 
-      <Form.Label>Color Offset</Form.Label>
+      <Form.Label className={MiscOptionsStyle.header}>Color Offset</Form.Label>
       <Form.Control
         aria-describedby="colorOffset"
         type="text"
@@ -66,12 +69,14 @@ const MiscOptions = ({
         isInvalid={!!errors[offsetValue] && touched[offsetValue]}
       />
       <Form.Text id="colorOffset" muted>
-        Number of characters to skip from the back when extracting color code
+        Number of characters to skip from the back when extracting color code.
+        If the end of the sequence name is "color=#FFFFFF]]", then color offset
+        should be "-2"
       </Form.Text>
       <Form.Control.Feedback type="invalid">
         {errors[offsetValue]}
       </Form.Control.Feedback>
-      <Form.Label>Root On</Form.Label>
+      <Form.Label className={MiscOptionsStyle.header}>Root On</Form.Label>
       <Form.Control
         type="text"
         placeholder="Clade to Root On"
@@ -86,6 +91,7 @@ const MiscOptions = ({
       <Form.Check
         type="checkbox"
         name={quotesValue}
+        className="mt-3"
         label="Is Sequence Name Quoted?"
         checked={quotes}
         onChange={handleChange(quotesValue, setQuotes, setFieldValue)}

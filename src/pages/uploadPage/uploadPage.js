@@ -6,13 +6,14 @@ import Container from "react-bootstrap/Container";
 import { Formik } from "formik";
 import * as yup from "yup";
 import { MdAddBox } from "react-icons/md";
+import { useHistory } from "react-router-dom";
 
 import * as service from "../../services/treeGen";
 import CladeRow from "../../components/cladeRow/cladeRow";
 import NameRow from "../../components/nameRow/nameRow";
 import FileUpload from "../../components/fileUpload/fileUpload";
 import MiscOptions from "../../components/miscOptions/miscOptions";
-import { useHistory } from "react-router-dom";
+import UploadPageStyles from "./uploadPage.module.css";
 
 const CLADE = "clade";
 const COLOR = "color";
@@ -288,7 +289,33 @@ function UploadPage({ setResults }) {
           <Container>
             <Form onSubmit={handleSubmit}>
               <Form.Group as={Col} xs={12}>
-                <Form.Label>Clade Colouring Properties</Form.Label>
+                <div className="mb-3">
+                  <Form.Text className={UploadPageStyles.header}>
+                    Getting started:
+                  </Form.Text>
+                  <Form.Text muted>
+                    This tool seeks to find an ancestor that maximizes the total
+                    density and coverage given the values
+                  </Form.Text>
+                  <Form.Text muted>
+                    Density refers to the total colored taxon belonging to a
+                    clade over the taxon colored. Coloring 80 Taxons as G clade
+                    with 60 of them actually belonging to G clades yields a 75%
+                    density.
+                  </Form.Text>
+                  <Form.Text muted>
+                    Coverage refers to the number of taxon belonging to a clade
+                    that got colored. If there are 50 S clade taxons and 45 are
+                    coloured, the coverage is 90%.
+                  </Form.Text>
+                  <Form.Text muted>
+                    For more targeted coloring, increase <em>min density </em>
+                    values and reduce the <em>min coverage </em>values.
+                  </Form.Text>
+                </div>
+                <Form.Label className={UploadPageStyles.header}>
+                  Clade Colouring Properties
+                </Form.Label>
                 <Form.Row>
                   <Form.Label as={Col} xs={12} md={2}>
                     Clade
@@ -335,7 +362,9 @@ function UploadPage({ setResults }) {
               </Form.Group>
               <Form.Row>
                 <Form.Group as={Col} xs={12} md={6}>
-                  <Form.Label>Clade Name Remapping</Form.Label>
+                  <Form.Label className={UploadPageStyles.header}>
+                    Clade Name Remapping
+                  </Form.Label>
                   <Form.Row>
                     <Form.Label as={Col} xs={12} md={5}>
                       From:
