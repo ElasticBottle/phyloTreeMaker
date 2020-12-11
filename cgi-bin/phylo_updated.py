@@ -188,14 +188,19 @@ def main():
             f"{args.root_on} clade does not exist. Did you specify a clade to root on?"
         )
 
-    tree = root_on(
-        tree=tree,
-        clade=args.root_on,
-        clade_details=clade_list_details[args.root_on],
-        clade_total=clade_counts[args.root_on],
-        clades=clades,
-        alternate_names=alt_names,
-    )
+    try:
+        tree = root_on(
+            tree=tree,
+            clade=args.root_on,
+            clade_details=clade_list_details[args.root_on],
+            clade_total=clade_counts[args.root_on],
+            clades=clades,
+            alternate_names=alt_names,
+        )
+    except:
+        raise Exception(
+            f"Could not find {args.root_on} clade. Did you perhaps forgot to indicate quoted string names?"
+        )
 
     node_cache = get_node_details(tree, clades=clades, alternate_names=alt_names)
     color_clades(

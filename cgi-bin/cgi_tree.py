@@ -111,7 +111,6 @@ def main():
         other_properties["color_delineator"],
         "--offset",
         other_properties["offset"],
-        "-d",
     ]
     if other_properties["quoted"] == "true":
         command.append("--quoted")
